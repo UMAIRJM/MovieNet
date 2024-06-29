@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.cardStyle:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainDiv{
+  padding: 5%;
+  /* background-color: rgb(131, 123, 123); */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  box-shadow: 0px 20px 20px rgb(74, 34, 92);
   display: flex;
-  flex-direction: column;
+  flex-direction: column
+}
+
+
+.headerName{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.textDesign{
+  font-size: 60px;
+  color: rgb(1, 12, 75);
+  font-weight: bolder;
+  font-style: italic;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.searchBarStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inputDesign{
+  display: flex;
+  align-self: center;
+  padding: 0.5%;
+  border-width: 0.5px;
+  width: 50%;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-size: larger;
+}
+
+.buttonDesign{
+  background-color: rgb(179, 177, 174);
+  padding: 1%;
+  border-width: 0.5%;
+  width: 8%;
+  height: 65px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.buttonDesign:hover{
+  background-color: aliceblue;
+}
+
+.cardStyle2{
+  display:flex;
+  flex-direction: row;
+    align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cardStyChild{
+  margin: 8px;
+  flex: 1 1 calc(33.333% - 16px);
+
 }

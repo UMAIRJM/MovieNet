@@ -2,7 +2,7 @@ import './App.css';
 import MainComponent from './components/mainComponent';
 function App() {
   return (
-    <div >
+    <div>
       <MainComponent/>
     </div>
   );
